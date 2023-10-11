@@ -330,7 +330,7 @@ const User = () => {
   const header = (
     <div className="flex flex-wrap gap-2 align-items-center justify-content-between">
       <h4 className="m-0">Data User</h4>
-      <span className="p-input-icon-left">
+      {/* <span className="p-input-icon-left">
         <i className="pi pi-search" />
         <InputText
           placeholder="Cari Data"
@@ -343,7 +343,7 @@ const User = () => {
           }}
           className={`border-2 border-sky-200 rounded-lg p-1 pl-5`}
         />
-      </span>
+      </span> */}
     </div>
   );
 
